@@ -5,7 +5,7 @@
 
 .header {
     width: 100%;
-    height: 400px;
+    
     background-color: rgb(46, 11, 48);
 }
 
@@ -90,20 +90,20 @@
 
 .section{
     width: 100%;
-    height: 400px;
+    
     background-color: rgb(238, 227, 239);
-    padding-top: 20px;
+    
 }
 
 .conteiner-section{
     width: 50%;
-    height: 400px;
+
     margin: 0 auto;
 }
 .conteiner-heading{
     color: rgb(13, 13, 13);
     padding-top: 30px;
-    padding-bottom: 10px;
+    
     text-align: center;
     font-weight: 700;
     font-size: 30px;
@@ -118,7 +118,7 @@
 
 .conteiner-element{
     margin-top: 40px;
-    margin-bottom: 10px;
+   padding-bottom:40px ;
 }
 
 .element-text{
@@ -171,7 +171,7 @@
 
 .conteiner-project{
     width: 100%;
-    height: 400px;
+    
     background-color: rgb(187, 197, 212);
     text-align:center;
 }
@@ -213,13 +213,13 @@
 
 .footer{
     width: 100%;
-    height: 300px;
+  
     background-color: rgb(46, 11, 48);
 }
 
 .conteiner-contact{
     width: 50%;
-    height: 300px;
+    padding-bottom: 50px;
     margin: 0 auto;
     
 }
