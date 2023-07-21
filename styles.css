@@ -102,6 +102,7 @@
 
 .images-foto{
     width: 60%;
+    
 }
 @media (max-width: 500px){
     .images-foto{
@@ -175,6 +176,7 @@ button{
 img {
     max-width: 100%;
     height: auto;
+    
 }
 
 
