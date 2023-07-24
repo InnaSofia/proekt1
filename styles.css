@@ -396,7 +396,7 @@ justify-content: space-around;
 
 .img-who{
    
-    width: 30%;
+    width: 40%;
 }
 @media (max-width: 955px) {
     .img-who{
@@ -411,13 +411,24 @@ justify-content: space-around;
 
 .position-who{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    margin-left: 300px;
 }
-.position-who-image{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+@media (max-width: 1200px) {
+    .position-who{
+        margin-left: 200px;
+    }
+    
+}
+@media (max-width: 980px) {
+    .position-who{
+        margin-left: 0;
+        flex-wrap: wrap;
+        /* text-align: center; */
+        justify-content: center;
+    }
+    
 }
 
 .project-my{
