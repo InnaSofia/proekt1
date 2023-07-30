@@ -15,20 +15,27 @@
     text-align: start;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     position: sticky;
     top:0px;
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
 }
-
 .fa-brands{
     color: #ff42ef;
     font-size: 40px;
     display:flex;
     flex-direction: column;
     align-items: center;
+}
+.fa-brands2{
+    color: #ff42ef;
+    font-size: 40px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    transform: rotate(270deg);
 }
 .fa-brands-position{
 display: flex;
@@ -126,6 +133,20 @@ align-items: center;
     font-size: 15px;
    padding: 2%;
    font-weight: 400;
+   cursor: pointer;
+   width: 60%;
+   background: linear-gradient(281deg, #eea2fe, rgb(255 0 238));
+   border-radius: 7px;
+   border: none;
+   box-shadow: 1px 1px 5px 1px #f9e5f6;
+   border: 1px solid #fb90f2;
+}
+
+
+@media (max-width: 500px){
+    .button-text{
+        width: 200px;
+    }
 }
 
 .cub{
@@ -177,19 +198,8 @@ align-items: center;
     }
 }
 
-button{
-    width: 60%;
-    background: linear-gradient(281deg, #eea2fe, rgb(255 0 238));
-    border-radius: 7px;
-    border: none;
-    box-shadow: 1px 1px 5px 1px #f9e5f6;
-    border: 1px solid #fb90f2;
-}
-@media (max-width: 500px){
-    button{
-        width: 200px;
-    }
-}
+
+
 .text{
     margin-top: 2%;
     color: #ffffff;
@@ -425,7 +435,6 @@ justify-content: space-around;
     .position-who{
         margin-left: 0;
         flex-wrap: wrap;
-        /* text-align: center; */
         justify-content: center;
     }
     
@@ -438,3 +447,131 @@ justify-content: space-around;
     color: #ffffff;
 
 }
+
+#image1{
+    background: url(hero.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+#image2{
+    background: url(Rectangle\ 9.png);
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 300px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+   
+}
+#image3{
+    background: url(patient.png);
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 300px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    
+}
+
+.heading-text{
+    color: rgb(255, 255, 255);
+    background-color: #0c0c0c;
+    padding: 3% 0;
+    text-align: center;
+}
+
+.position-button{
+    display: flex;
+    flex-direction: column;
+}
+
+.button-image{
+    appearance: none;
+    border: 2px solid #ffffff;
+    padding: 5px 10px;
+    background: linear-gradient(114deg, rgb(27 26 26 / 40%), #19191940);
+    cursor: pointer;
+    box-shadow: none;
+    border-radius: 1px;
+    margin-bottom: 5%;
+    width: 90%;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.position-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+@media (max-width:670px) {
+    .position-image{
+       flex-wrap: wrap; 
+    }
+}
+
+
+
+.textTaplink{
+    color: #ffffff;
+    font-family: 'Montserrat';
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.up-button{
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #df03cd;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: fixed;
+    bottom: 10px;
+    right: 5%;
+    box-shadow: 1px 2px 5px 1px rgb(30 29 29);
+}
+@media (max-width:670px) {
+    .up-button{
+       
+    }
+}
+
+
+ .positionProject{
+    display: flex;
+    justify-content: center;
+    
+   
+} 
+
+.buttonProject{
+    appearance: none;
+    border: 2px solid #ffffff;
+    padding: 5px 10px;
+    background: linear-gradient(114deg, rgb(27 26 26 / 40%), #19191940);
+    cursor: pointer;
+    box-shadow: none;
+    border-radius: 1px;
+    width: 90%;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin:3% 0 3% 5%;
+}
+
