@@ -22,6 +22,12 @@
     margin-right: 0px;
     margin-bottom: 0px;
 }
+
+.links{
+    text-decoration: none;
+    }
+
+
 .fa-brands{
     color: #ff42ef;
     font-size: 40px;
@@ -186,7 +192,7 @@ align-items: center;
 .cub4{
     left:5%;
     position: absolute;
-    width: 10%;
+    width: 15%;
     top: 200%;
 }
 
@@ -198,7 +204,19 @@ align-items: center;
     }
 }
 
+.cub5{
+    left:5%;
+    position: absolute;
+    width: 20%;
+}
 
+@media (max-width: 500px){
+    .cub5{
+        top: 330%;
+        left: 10px;
+        position: absolute;
+    }
+}
 
 .text{
     margin-top: 2%;
@@ -280,9 +298,7 @@ img {
     
     
 }
-.links{
-text-decoration: none;
-}
+
 .conteiner-answers{
     margin: 4%;
 display: flex;
@@ -358,10 +374,20 @@ justify-content: space-around;
 .icons{
     font-size: 25px;
     color: rgb(255, 255, 255);
-    padding-top: 20px;
-    word-spacing: 1rem;
-    margin-right: 10px;
-    
+    padding-top: 20px; 
+}
+
+.contact-text1{
+    padding-top: 29px;
+    padding-left: 5px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.iconsPosition{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .contact-text{
     text-decoration: none;
@@ -529,8 +555,14 @@ justify-content: space-around;
     text-align: center;
     display: flex;
     flex-direction: column;
+    line-height: 32px;
 }
 
+@media (max-width:600px) {
+    .textTaplink{
+        line-height: 22px;
+    }
+}
 .up-button{
     width: 30px;
     height: 30px;
