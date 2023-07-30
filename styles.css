@@ -351,9 +351,7 @@ justify-content: space-around;
     }
 }
 
-.footer{
-  
-}
+
 
 .conteiner-contact{
     width: 50%;
@@ -400,10 +398,7 @@ justify-content: space-around;
     color: rgb(224, 43, 212);
 }
 
-.conteiner-who{
-    
-    
-}
+
 
 .image-who{
     width: 30%;
@@ -578,11 +573,7 @@ justify-content: space-around;
     right: 5%;
     box-shadow: 1px 2px 5px 1px rgb(30 29 29);
 }
-@media (max-width:670px) {
-    .up-button{
-       
-    }
-}
+
 
 
  .positionProject{
