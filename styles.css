@@ -470,17 +470,25 @@ justify-content: space-around;
 }
 
 #image1{
-    background: url(hero.jpg);
+
     background-position: center;
     background-size: cover;
-    width: 200px;
-    height: 300px;
+    width: 600px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
+@media (max-width: 680px) {
+    #image1{
+      width: 50%;
+      height: auto;
+    }
+    
+}
+
 #image2{
-    background: url(школа.jpg);
+    
     background-position: center;
     background-size: cover;
     width: 600px;
@@ -490,15 +498,29 @@ justify-content: space-around;
     flex-direction: column;
    
 }
+@media (max-width: 680px) {
+    #image2{
+      width: 50%;
+      height: auto;
+    }
+    
+}
 #image3{
-    background: url(patient.png);
+    
     background-position: center;
     background-size: cover;
-    width: 200px;
-    height: 300px;
+    width: 600px;
+    height: 500px;
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
+    
+}
+@media (max-width: 680px) {
+    #image3{
+      width: 50%;
+      height: auto;
+    }
     
 }
 
