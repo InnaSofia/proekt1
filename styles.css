@@ -480,11 +480,11 @@ justify-content: space-around;
     justify-content: flex-end;
 }
 #image2{
-    background: url(Rectangle\ 9.png);
+    background: url(школа.jpg);
     background-position: center;
     background-size: cover;
-    width: 200px;
-    height: 300px;
+    width: 600px;
+    height: 500px;
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
@@ -504,7 +504,7 @@ justify-content: space-around;
 
 .heading-text{
     color: rgb(255, 255, 255);
-    background-color: #0c0c0c;
+    
     padding: 3% 0;
     text-align: center;
 }
